@@ -19,10 +19,10 @@ const about = () => {
             <Container maxWidth={false} component="section" disableGutters sx={{ py: "30px" }}>
                 <Title />
                 <Grid container columnSpacing={3} sx={{ alignItems: "center" }}>
-                    <Grid item md={6}>
+                    <Grid item lg={6} xxs={12}>
                         <Vector />
                     </Grid>
-                    <Grid item md={6}>
+                    <Grid item lg={6} xxs={12}>
                         <AboutInfo />
                     </Grid>
                 </Grid>

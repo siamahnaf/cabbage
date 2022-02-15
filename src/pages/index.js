@@ -31,8 +31,12 @@ const Index = () => {
       <Seo title="Cabbage | The Fearless Programming!" />
       <Container maxWidth={false} component="section" disableGutters sx={{ py: "30px" }}>
         <Grid container columnSpacing={2}>
-          <Grid item md={8}><Player current={current} videoList={videoList} /></Grid>
-          <Grid item md={4}><Cabbage /></Grid>
+          <Grid item md={8} xxs={12}>
+            <Player current={current} videoList={videoList} />
+          </Grid>
+          <Grid item md={4} sx={{ display: { md: "block", xxs: "none" } }}>
+            <Cabbage />
+          </Grid>
         </Grid>
         <Videos setCurrent={setCurrent} videoList={videoList} />
       </Container>

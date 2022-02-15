@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <Container maxWidth={false} component="footer" disableGutters sx={{ py: "10px" }}>
             <Grid container columnSpacing={2} sx={{ alignItems: "center" }}>
-                <Grid item md={5}>
+                <Grid item msm={5} xxs={12}>
                     <Subscribe />
                 </Grid>
-                <Grid item md={7}>
+                <Grid item msm={7} xxs={12}>
                     <Copyright />
                 </Grid>
             </Grid>

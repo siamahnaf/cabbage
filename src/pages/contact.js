@@ -19,10 +19,10 @@ const contact = () => {
             <Container maxWidth={false} component="section" disableGutters sx={{ py: "30px" }}>
                 <Title />
                 <Grid container columnSpacing={2}>
-                    <Grid item md={7}>
+                    <Grid item md={7} xxs={12}>
                         <Vector />
                     </Grid>
-                    <Grid item md={5}>
+                    <Grid item md={5} xxs={12}>
                         <Map />
                     </Grid>
                 </Grid>

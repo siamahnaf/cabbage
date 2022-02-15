@@ -21,7 +21,11 @@ export default {
         borderRadius: "3px",
         color: "background.default",
         fontWeight: 700,
-        mr: "15px"
+        mr: "15px",
+        "&.disable": {
+            opacity: "0.7",
+            pointerEvents: "none"
+        }
     },
     ErrorMessage: {
         color: "primary.youtube",
@@ -29,5 +33,15 @@ export default {
             mr: "5px",
             mb: "-3px"
         }
+    },
+    EmailSuccess: {
+        fontSize: "18px",
+        fontWeight: 500,
+        color: "primary.success"
+    },
+    EmailError: {
+        fontSize: "18px",
+        fontWeight: 500,
+        color: "primary.youtube"
     }
 }

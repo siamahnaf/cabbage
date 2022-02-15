@@ -18,7 +18,22 @@ const theme = createTheme({
             black_opacity: "#e8e8e8", //Table Color
             link_color: "#653096", //Link Color
             borderColor: "#0000002e", //Border Color
+            success: "#28A745", //Success color message
         }
+    },
+    breakpoints: {
+        values: {
+            xxs: 0, // Double Extra Small Devices
+            xs: 360, // Extra Small Devices
+            sm: 480, // Small Devices
+            msm: 576, // Medium Small Medium Devices
+            lsm: 640, // Large Small Medium Devices
+            smd: 768, // Small Medium Devices
+            md: 992, // Medium Devices
+            lg: 1200, // Large Devices
+            xl: 1536, // Extra Large Devices
+            xxl: 1980 // Double Extra Large Devices
+        },
     },
     components: {
         MuiContainer: {

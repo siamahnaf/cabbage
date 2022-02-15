@@ -9,7 +9,7 @@ const Logo = () => {
         <Box>
             <Link href="/">
                 <a>
-                    <Box sx={{ width: "60%" }} component="img" src={LogoImage} alt="Logo" />
+                    <Box sx={{ width: { md: "60%", smd: "57%", xxs: "130px" } }} component="img" src={LogoImage} alt="Logo" />
                 </a>
             </Link>
         </Box>

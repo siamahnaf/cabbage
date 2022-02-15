@@ -1,5 +1,9 @@
 export default {
     SubscribeButton: {
+        textAlign: {
+            msm: "left",
+            xxs: "center"
+        },
         a: {
             color: "background.default",
             textDecoration: "none",

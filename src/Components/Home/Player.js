@@ -16,16 +16,19 @@ const Player = ({ current, videoList }) => {
         <Box sx={{ iframe: { borderRadius: "3px" } }}>
             {videoList?.length > 0 &&
                 <>
-                    <ReactPlayer
-                        url={`https://www.youtube.com/watch?v=${videoList[current].snippet.resourceId.videoId}`}
-                        controls={true}
-                        width="864px"
-                        height="486px"
-                        playing={true}
-                        style={{
-                            borderRadius: "10px"
-                        }}
-                    />
+                    <Box sx={styles.Player}>
+                        <ReactPlayer
+                            url={`https://www.youtube.com/watch?v=${videoList[current].snippet.resourceId.videoId}`}
+                            controls={true}
+                            className="cabbage-player"
+                            width="100%"
+                            height="100%"
+                            playing={true}
+                            style={{
+                                borderRadius: "10px"
+                            }}
+                        />
+                    </Box>
                     <Typography variant="h5" component="h5" sx={{ py: "5px" }}>
                         {videoList[current].snippet.title}
                     </Typography>

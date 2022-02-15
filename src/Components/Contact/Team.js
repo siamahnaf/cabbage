@@ -18,7 +18,7 @@ const Team = () => {
                 Cabbage has not any contact info. You can contact any of our team members.
             </Typography>
             <Grid container spacing={3}>
-                <Grid item md={2}>
+                <Grid item xl={2} lg={2.1} smd={4} lsm={5} msm={6} sm={7} xxs={12}>
                     <Box sx={{ borderRadius: "3px", width: "100%" }} component="img" src={SiamAhnaf} alt="Siam" />
                     <Typography variant="body1" component="p" sx={styles.Link}>
                         <Link href="https://www.siamahnaf.com/">
@@ -26,7 +26,7 @@ const Team = () => {
                         </Link>
                     </Typography>
                 </Grid>
-                <Grid item md={10}>
+                <Grid item xl={10} lg={9.9} xxs={12}>
                     <Box>
                         <Typography variant="h5" component="h5" sx={{ fontWeight: "700" }}>
                             Siam Ahnaf

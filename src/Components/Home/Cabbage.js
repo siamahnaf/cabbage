@@ -9,7 +9,7 @@ import styles from "Styles/Home/Cabbage.styles";
 
 const Cabbage = () => {
     return (
-        <Box sx={{ textAlign: "center", mt: "9em" }}>
+        <Box sx={{ textAlign: "center", mt: "36%" }}>
             <Box component="img" width="55%" src={Logo} alt="Log" />
             <Typography variant="body1" component="p" sx={{ fontSize: "20px", ml: "20px", mt: '5px' }}>
                 The fearless programming

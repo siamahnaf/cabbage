@@ -22,7 +22,7 @@ const Videos = ({ setCurrent, videoList }) => {
             <Grid container spacing={2}>
                 {videoList?.length > 0 &&
                     videoList.map((video, i) => (
-                        <Grid item md={3} key={i}>
+                        <Grid item smd={3} lsm={4} sm={6} xxs={12} key={i}>
                             <Box sx={styles.List} onClick={() => scrollTo(i)}>
                                 <Box
                                     sx={{ width: "100%", height: "auto" }}

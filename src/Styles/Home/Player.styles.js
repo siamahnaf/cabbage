@@ -9,6 +9,15 @@ export default {
             fontWeight: 700
         }
     },
+    Player: {
+        position: "relative",
+        pt: "56.25%",
+        "& .cabbage-player": {
+            position: "absolute",
+            top: 0,
+            left: 0
+        }
+    },
     Description: {
         pt: "15px",
         "& .ReactCollapse--collapse": {
