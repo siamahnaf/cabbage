@@ -11,10 +11,10 @@ import { wrapper } from "Redux/store";
 import NextProgress from "next-progress";
 
 //Fonts
-import "@fontsource/tajawal/300.css";
-import "@fontsource/tajawal/400.css";
-import "@fontsource/tajawal/500.css";
-import "@fontsource/tajawal/700.css";
+import "@fontsource/assistant/300.css";
+import "@fontsource/assistant/400.css";
+import "@fontsource/assistant/500.css";
+import "@fontsource/assistant/700.css";
 
 const clientSideEmotionCache = createEmotionCache();
 

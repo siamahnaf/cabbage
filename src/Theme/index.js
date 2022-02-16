@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
     typography: {
-        fontFamily: "Tajawal"
+        fontFamily: "Assistant"
     },
     palette: {
         text: {
@@ -47,7 +47,7 @@ const theme = createTheme({
         MuiButtonBase: {
             styleOverrides: {
                 root: {
-                    fontFamily: "Tajawal"
+                    fontFamily: "Assistant"
                 },
             },
         },
