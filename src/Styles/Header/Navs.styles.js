@@ -8,7 +8,7 @@ export default {
             color: "text.primary",
             fontWeight: 500,
             button: {
-                fontSize: "20px",
+                fontSize: "18px",
                 p: "2px 10px",
                 borderRadius: "5px",
             }

@@ -6,7 +6,7 @@ export default {
             borderRadius: "4px"
         },
         h5: {
-            fontSize: "20px",
+            fontSize: "19px",
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
             overflow: "hidden",

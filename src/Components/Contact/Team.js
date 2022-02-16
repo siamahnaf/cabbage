@@ -34,7 +34,7 @@ const Team = () => {
                         <Typography variant="h6" component="h6">
                             Full-stack Developer
                         </Typography>
-                        <Typography variant="body1" component="p" sx={{ fontSize: "18px" }}>
+                        <Typography variant="body1" component="p" sx={{ fontSize: "17px", mb: "5px", mt: "8px" }}>
                             Siam Ahnaf is a full-stack developer. He is known for the javascript framework such as Reactjs, Nextjs, Nodejs, Expressjs, Graphql, and many headless CMS like Sanity and Strapi. He is also familiar with cloud services such as AWS, Azure, and Google Cloud. Siam Ahnaf now working on Code Station-21. He is one of our honorable members. He creates many videos and works with many others.
                         </Typography>
                         <Stack direction="row" sx={styles.Social}>

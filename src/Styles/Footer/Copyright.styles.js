@@ -14,7 +14,7 @@ export default {
             mr: "2px"
         },
         "& p": {
-            fontSize: "18px"
+            fontSize: "16px"
         }
     }
 }

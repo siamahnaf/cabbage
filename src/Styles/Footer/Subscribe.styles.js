@@ -16,7 +16,7 @@ export default {
                     mr: "5px"
                 },
                 "& p": {
-                    fontSize: "20px",
+                    fontSize: "18px",
                     fontWeight: 500
                 }
             }

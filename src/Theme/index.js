@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
     typography: {
-        fontFamily: "Assistant"
+        fontFamily: "Nunito"
     },
     palette: {
         text: {
@@ -47,7 +47,7 @@ const theme = createTheme({
         MuiButtonBase: {
             styleOverrides: {
                 root: {
-                    fontFamily: "Assistant"
+                    fontFamily: "Nunito"
                 },
             },
         },
